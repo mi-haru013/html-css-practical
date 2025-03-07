@@ -1,0 +1,129 @@
+body {
+  color: #000000;
+  background-color: #ffffff;
+  font-family: "Noto Sans JP";
+}
+a:link {
+  color: #000000;
+}
+a {
+  text-decoration: none;
+}
+
+ .nav-pc {
+  font-size: 34px;
+  display: flex; 
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 20px;
+ }
+ .nav-pc ul {
+  display: flex;
+  font-size: 34px;
+  gap: 30px;
+  margin: 20px 0 0 0;
+  padding: 0;
+ 
+}
+.nav-pc ul li {
+list-style: none;
+}
+h2 {
+  font-size: 34px;
+}
+
+h1 {
+  font-size: 24px;
+}
+p {
+  font-size: 18px;
+}
+ul {
+  font-size: 18px;
+}
+#profilephoto {
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+}
+#myprofile {
+  border: solid;
+}
+
+@media screen and (min-width: 768px) {
+
+#about-flex {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+#works-flex {
+  display: flex;
+  margin-top: 30px; 
+  justify-content: center;
+  gap: 20px;
+}
+
+.works-div {
+  width: 240px;
+  height: 178px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+footer {
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  margin-top: 100px;
+}
+.about-profile {
+  margin-left: 50px;
+}
+
+body { 
+  margin: 0 auto 0 auto;
+}
+
+#cameraphoto {
+  margin-top: 30px;
+  width: 100%;
+}
+.works-photo {
+  width: 240px;
+  height: 178px;
+}
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+ body {
+    min-width: 375px;
+    margin: 0;
+}
+#about-flex {
+  display: block;
+  margin: 0 auto;
+  width: 375px;
+}
+#works-flex {
+  display: block;
+  margin: 0 auto;
+  width: 375px;
+}
+footer {
+  text-align: center;
+}
+h2 {
+text-align: center;
+}
+#cameraphoto {
+  margin-top: 30px;
+  width: 100%;
+}
+}
